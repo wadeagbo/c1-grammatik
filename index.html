@@ -1,46 +1,95 @@
 <!DOCTYPE html><html lang="de"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>C1 Grammatik verstehen und anwenden</title><style>
-:root{--blau:#005AB4;--rot:#BE1E2D;--gruen:#00823C;--orange:#D27800;--grau:#f5f6f8}
+:root{--blau:#005AB4;--gruen:#00823C;--orange:#D27800;--grau:#f5f6f8}
 *{box-sizing:border-box}body{font-family:Georgia,'Times New Roman',serif;margin:0;background:var(--grau);color:#222;line-height:1.55}
 header{background:var(--blau);color:#fff;padding:2rem 1.2rem;text-align:center}
 header h1{margin:0 0 .3rem;font-size:1.7rem}header p{margin:0;opacity:.92}
 main{max-width:820px;margin:0 auto;padding:1.4rem 1.2rem 3rem}
-.card{background:#fff;border-radius:10px;padding:1rem 1.2rem;margin:0 0 1rem;box-shadow:0 1px 4px rgba(0,0,0,.08)}
-.card h2{margin:.1rem 0 .3rem;font-size:1.12rem}
-.card h2 a{color:var(--blau);text-decoration:none}.card h2 a:hover{text-decoration:underline}
-.card p{margin:.15rem 0 .4rem;font-size:.95rem;color:#444}
+.card{background:#fff;border-radius:10px;padding:1rem 1.2rem;margin:0 0 1rem;box-shadow:0 1px 4px rgba(0,0,0,.08);scroll-margin-top:1rem}
+.card h2{margin:.1rem 0 .3rem;font-size:1.12rem;color:var(--blau)}
+.card p{margin:.15rem 0 .5rem;font-size:.95rem;color:#444}
 .files a{display:inline-block;margin:.15rem .5rem .15rem 0;padding:.32rem .7rem;border-radius:6px;background:var(--blau);color:#fff;text-decoration:none;font-size:.88rem}
 .files a.sek{background:var(--gruen)}.files a:hover{opacity:.88}
 .hinweis{font-size:.85rem;color:#555;border-left:4px solid var(--orange);padding:.4rem .8rem;background:#fff;border-radius:0 8px 8px 0;margin:1rem 0}
+.toc{background:#fff;border-radius:10px;padding:.8rem 1.2rem;margin:0 0 1rem;box-shadow:0 1px 4px rgba(0,0,0,.08);font-size:.9rem}
+.toc a{color:var(--blau);text-decoration:none;margin-right:.7rem;white-space:nowrap}
 footer{text-align:center;font-size:.82rem;color:#666;padding:1.5rem}
-nav a{color:var(--blau);text-decoration:none;font-size:.9rem}
 </style></head><body>
-<header><h1>C1 Grammatik verstehen und anwenden</h1><p>Ein systematischer Kurs von den Grundlagen bis zur Prüfungssprache · 10 Bände</p></header><main><div class="hinweis">Willkommen! Hier finden Sie zu jedem Band das Handout zum Ausdrucken sowie die Foliensätze. Die QR-Codes in den Präsentationen führen direkt auf die jeweilige Band-Seite.</div><div class="card"><h2><a href="band1/index.html">Band 1: Die vier Fälle</a></h2>
-<p>Fall-Algorithmus, Artikelsystem, Dativ- und Genitiv-Verben, N-Deklination</p></div>
-<div class="card"><h2><a href="band2/index.html">Band 2: Präpositionen und Rektion</a></h2>
-<p>Drei-Gruppen-System, Wechselpräpositionen, Dreierpakete, Pronominaladverbien</p></div>
-<div class="card"><h2><a href="band3/index.html">Band 3: Zeitformen sicher beherrschen</a></h2>
-<p>Registerregel, Präteritum-Insel, haben/sein, nachdem + Plusquamperfekt, Futur als Vermutung</p></div>
-<div class="card"><h2><a href="band4/index.html">Band 4: Passiv verstehen</a></h2>
-<p>worden-Falle, von/durch, Dativ-Falle, Modalverb-Passiv, Ersatzformen</p></div>
-<div class="card"><h2><a href="band5/index.html">Band 5: Nominalstil und wissenschaftliches Deutsch</a></h2>
-<p>Umformungstabelle, Funktionsverbgefüge, Attribute, Formeln und Hedging</p></div>
-<div class="card"><h2><a href="band6/index.html">Band 6: Konjunktiv II</a></h2>
-<p>Bauformel, würde-Regel, hätte/wäre + P.II, Höflichkeit, Empfehlungen</p></div>
-<div class="card"><h2><a href="band7/index.html">Band 7: Partizipien und Attribute</a></h2>
-<p>P.I/P.II, die Klammer, erweiterte Attribute, Gerundivum, Partizipialsätze</p></div>
-<div class="card"><h2><a href="band8/index.html">Band 8: Satzverbindungen</a></h2>
-<p>Drei Konnektor-Typen, die Matrix, je…desto, Verweiswörter, Absatz-Bauplan</p></div>
-<div class="card"><h2><a href="band9/index.html">Band 9: C1-Schreiben</a></h2>
-<p>Textsorten, Konjunktiv I, Grafikbeschreibung, Stellungnahme, Schreibprozess</p></div>
-<div class="card"><h2><a href="band10/index.html">Band 10: Grammatiktraining für die Prüfung</a></h2>
-<p>Mischtraining, Mischtests, 14-Tage-Plan, Prüfungstag, Generalprobe</p></div>
-<div class="card"><h2>Kursmaterialien</h2>
+<header><h1>C1 Grammatik verstehen und anwenden</h1>
+<p>Ein systematischer Kurs von den Grundlagen bis zur Prüfungssprache · 10 Bände</p></header>
+<main>
+<div class="hinweis">Willkommen! Zu jedem Band finden Sie hier das Handout zum
+Ausdrucken und den Foliensatz. Die QR-Codes in den Präsentationen führen
+direkt zum jeweiligen Band auf dieser Seite.</div>
+<div class="toc"><strong>Direkt zu:</strong> <a href="#band1">Band 1</a> <a href="#band2">Band 2</a> <a href="#band3">Band 3</a> <a href="#band4">Band 4</a> <a href="#band5">Band 5</a> <a href="#band6">Band 6</a> <a href="#band7">Band 7</a> <a href="#band8">Band 8</a> <a href="#band9">Band 9</a> <a href="#band10">Band 10</a> <a href="#material">Materialien</a></div>
+<div class="card" id="band1"><h2>Band 1: Die vier Fälle</h2>
+<p>Fall-Algorithmus, Artikelsystem, Dativ- und Genitiv-Verben, N-Deklination</p>
+<div class="files">
+<a href="band1_faelle_v6_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band1_faelle_v6.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+<div class="card" id="band2"><h2>Band 2: Präpositionen und Rektion</h2>
+<p>Drei-Gruppen-System, Wechselpräpositionen, Dreierpakete, Pronominaladverbien</p>
+<div class="files">
+<a href="band2_praepositionen_v1_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band2_praepositionen_v1.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+<div class="card" id="band3"><h2>Band 3: Zeitformen sicher beherrschen</h2>
+<p>Registerregel, Präteritum-Insel, haben/sein, nachdem + Plusquamperfekt, Futur als Vermutung</p>
+<div class="files">
+<a href="band3_zeitformen_v1_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band3_zeitformen_v1.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+<div class="card" id="band4"><h2>Band 4: Passiv verstehen</h2>
+<p>worden-Falle, von/durch, Dativ-Falle, Modalverb-Passiv, Ersatzformen</p>
+<div class="files">
+<a href="band4_passiv_v1_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band4_passiv_v1.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+<div class="card" id="band5"><h2>Band 5: Nominalstil und wissenschaftliches Deutsch</h2>
+<p>Umformungstabelle, Funktionsverbgefüge, Attribute, Formeln und Hedging</p>
+<div class="files">
+<a href="band5_nominalstil_v1_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band5_nominalstil_v1.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+<div class="card" id="band6"><h2>Band 6: Konjunktiv II</h2>
+<p>Bauformel, würde-Regel, hätte/wäre + P.II, Höflichkeit, Empfehlungen</p>
+<div class="files">
+<a href="band6_konjunktiv_v1_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band6_konjunktiv_v1.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+<div class="card" id="band7"><h2>Band 7: Partizipien und Attribute</h2>
+<p>P.I/P.II, die Klammer, erweiterte Attribute, Gerundivum, Partizipialsätze</p>
+<div class="files">
+<a href="band7_partizipien_v1_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band7_partizipien_v1.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+<div class="card" id="band8"><h2>Band 8: Satzverbindungen</h2>
+<p>Drei Konnektor-Typen, die Matrix, je…desto, Verweiswörter, Absatz-Bauplan</p>
+<div class="files">
+<a href="band8_satzverbindungen_v1_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band8_satzverbindungen_v1.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+<div class="card" id="band9"><h2>Band 9: C1-Schreiben</h2>
+<p>Textsorten, Konjunktiv I, Grafikbeschreibung, Stellungnahme, Schreibprozess</p>
+<div class="files">
+<a href="band9_schreiben_v1_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band9_schreiben_v1.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+<div class="card" id="band10"><h2>Band 10: Grammatiktraining für die Prüfung</h2>
+<p>Mischtraining, Mischtests, 14-Tage-Plan, Prüfungstag, Generalprobe</p>
+<div class="files">
+<a href="band10_training_v1_handout.pdf">Handout (Druckversion, PDF)</a>
+<a class="sek" href="band10_training_v1.pdf">Foliensatz (Präsentation, PDF)</a>
+</div></div>
+
+<div class="card" id="material"><h2>Kursmaterialien</h2>
 <p>Übergreifende Materialien zum ganzen Kurs.</p>
 <div class="files">
-<a href="material/arbeitsheft_v1.pdf">Arbeitsheft (PDF)</a>
-<a class="sek" href="material/anki_decks_c1.zip">Anki-Decks (ZIP)</a>
-</div></div></main>
+<a href="arbeitsheft_v1.pdf">Arbeitsheft (PDF)</a>
+<a class="sek" href="anki_decks_c1.zip">Anki-Decks (ZIP)</a>
+</div></div>
+</main>
 <footer>C1 Grammatik verstehen und anwenden · Dr. Waheed A. Adeagbo · Deutsch C1 – Abendkurs</footer>
 </body></html>
